@@ -1,0 +1,118 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Bitter', serif;
+  font-stretch: expanded;
+  background-color: #E1E6E8;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Cabin Sketch', cursive;
+  padding: 32px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: black;
+}
+
+#subtitle {
+  font-family: 'Bitter', serif;
+  font-variant-caps;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0px;
+  }
+}
+
+img {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
+.questions{
+  max-width: 100%;
+  background-color: #3d7bd3;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px 16px;
+  margin: 0px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.questions:hover{
+  opacity: 0.7;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Styling of navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+  /* Styling bottom */
+  .bottom {
+  padding: 20px;
+  font-size: 15px;
+  margin-left: 60px
+}
