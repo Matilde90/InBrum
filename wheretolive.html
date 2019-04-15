@@ -1,5 +1,5 @@
 <html lang="eng">
-<title>In Brum</title> <link href="style.css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+<title>In Brum</title> <link href="style.css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <head></head>
 <body>
 <header>
@@ -35,12 +35,16 @@
 </section>
 
 <article>
-  <div class="content">
-    <div class="gallery">
-        <img src="sellyoak.jpg" alt="Selly Oak" class="sellyoak">
-      <div class="description"> Selly Oak is the preferred neighbourhood for University of Birmingham Undergraduates </div>
-    </div>
-
+  <div class= "gallery">
+  <div class="container">
+    <div>
+      <img class="item" src="sellyoak.jpg" alt="Selly Oak">
+      </div>
+      <div>
+        <img class="item" src="b15.png" alt="Selly Oak Map">
+      </div>
+      <!--<div class="description"> Selly Oak is the preferred neighbourhood for University of Birmingham Undergraduates </div> -->
+</div>
     <div class="gallery">
         <img src="moseley.jpg" alt="Moseley">
       <div class="description"> Do you like to live in a residential location well-connected to the city centre and enjoy a number of independent retailers? Do you like lindy hop and buddhist meditations? Then Moseley is the place for you! </div>
@@ -73,6 +77,22 @@
   </div>
 
 </article>
-</body>
+<section>
+  <!--Google map Edgbaston-->
+  <div class="maps" id="map-container-google-1" style="height: 400px">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19448.128693215152!2d-1.9347679!3d52.4607361!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc34e6b13737%3A0xca6477bef098b54f!2sBirmingham+B15!5e0!3m2!1sen!2suk!4v1554906583174!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <!-- Google map Selly Oak-->
+  <div class="maps" id="map-container-google-2" style="height: 400px">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19457.90177195848!2d-1.9613433621919647!3d52.43860835001072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48709602b1989231%3A0x9a2f0b2e543cdf9!2sBirmingham+B29!5e0!3m2!1sen!2suk!4v1554907066470!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</section>
+<br>
+<div>
+<p>Change</p>
+<button type="button" class="btn btn-sm btn-fb"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
+</div>
 
+
+</body>
 </html>
