@@ -1,16 +1,4 @@
-//function fadeIn(slow)
-//{
-  // $(this).fadeIn( fadeOut );
-//}
 
-//function fadeOut()
-//{
-  // $(this).fadeOut( fadeIn );
-//}
-
-//fadeIn.call($("#sellyoak"));
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -28,3 +16,7 @@ window.onclick = function(event) {
     }
   }
 }
+//this shows the pic description when you click on the pic name
+  $('.bhampic').on('click', function() {
+      $(this).toggleClass('show-description');
+  });

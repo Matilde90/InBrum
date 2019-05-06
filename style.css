@@ -1,3 +1,8 @@
+body{
+  margin:0 auto;
+  background-color: #F4EAEA;
+  font-family: 'Quattrocento', serif;
+}
 header{
   background-image: url(background.jpg);
   background-size: cover;
@@ -7,13 +12,23 @@ header{
   margin-bottom:0;
   opacity: 1;
 }
-ul{width:100%;
+ul{
+  width:100%;
 }
-
+li{
+  text-align: center;
+}
+a{
+  color: #F4EAEA;
+}
 nav{
   background-color: rgba(2,3,2,0.8);
 }
-
+.navbar{
+  position: sticky;
+  top:0;
+  z-index: 2;
+}
 h1{
   text-align: center;
   font-weight:bold;
@@ -23,8 +38,8 @@ h1{
   margin-bottom: 0px;
 }
 .dropbtn {
-  background-color: rgba(2,3,2,0.8);
-  color: white;
+  background-color: rgba(200,200,200,0.6);
+  color: black;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 10px;
@@ -33,18 +48,14 @@ h1{
   border: none;
   cursor: pointer;
 }
-
 .dropbtn:hover .dropbtn:focus {
   background-color: #3e8e41;
 }
-
 .dropdown {
   float: right;
   position: relative;
   display: inline-block;
-  top: -50px;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -55,18 +66,18 @@ h1{
   right: 0;
   z-index: 1;
 }
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
-.dropdown a:hover {background-color: #ddd;}
-
-.show {display: block;}
-
+.dropdown a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block;
+}
 .intro{
   max-width: 1000px;
   padding:20px;
@@ -77,56 +88,84 @@ h1{
 }
 section{
   margin: 50px auto;}
-.gallery{border: 4px: solid #ccc;}
+.backgr{
+  background-color: rgba(200,200,200,0.6);
+  padding:20px;
 }
-
-.content {
-  background-color:#C5D1D4;
+.bhampic{
+  position: relative;
+  margin: 40px 260px 0 260px;
+  border-radius: 12px;
+  height: 500px;
+  width: auto;
 }
-
-.gallery:hover{
-  background-color:#eac7d2; border:#d58fa5;}
-
-.gallery{
-  padding-top: 0px;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: #C7E4EA;
+#sellyoak{
+  background-image: url(sellyoak.jpg);
+  background-size: 100%;
 }
-.gallery img{
-  max-height: auto;
-  max-width: 700px;
-  border-radius: 8px;
+#moseley{
+  background-image: url(moseley.jpg);
+  background-size: 100%;
 }
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+#edgbaston{
+  background-image: url(edgbaston.jpg);
+  background-size: 100%;
 }
-
-body{
-  margin:0 auto;
-  background-color: #F4EAEA;
-  font-family: 'Quattrocento', serif;
+#erdington{
+  background-image: url(erdington.jpg);
+  background-size: 100%;
 }
-
-.description{
-  font-size: 20px;
-  text-align: center;
-  padding-bottom: 3%;
-  padding-left:25%;
-  padding-right:25%;
-
+#harborne{
+  background-image: url(harborne.jpg);
+  background-size:100%;
 }
-
+#citycentre{
+  background-image: url(citycentre.jpg);
+  background-size: 100%;
+  }
+#brindleyplace{
+  background-image: url(brindleyplace.jpg);
+  background-size: 100%;
+  }
+p{
+  padding: 10px;
+  font-size: 30px;
+  line-height: 24px;
+  color: #F4EAEA;
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 50px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+  width:100%;
+}
+small {
+  opacity: 0;
+}
+.show-description p {
+  height: 150px;
+  width:100%;
+}
+.show-description small {
+  opacity: 1;
+}
+small{
+  font-size:20px;
+}
 @media (max-width:700px){
   h1{font-size: 36px;}
   .gallery img{max-height:500px; max-width:auto;}
   .description {font-size:13px;}
   li{text-align: center;}
 }
-
 @media (max-width:1100px){
   h1{font-size: 45px;}
   .gallery img{max-height:500px; max-width:auto;}
