@@ -5,112 +5,68 @@ header{
   display:block;
   color: #F4EAEA;
   margin-bottom:0;
+  opacity: 1;
 }
-
-a{
-  color:#F4EAEA;
-}
-
-ol{
-  padding:10px;
-  background:#211E1E;
-  width:cover;
-}
-
-.tab{
-  background-color: #211E1E;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  margin-left: 15px;
-  display:inline;
-}
-
-.tab:hover{
-  background-color:  #533AF6;
-  box-shadow: 0px 8px 16px 0px;
-  position:relative;
+ul{width:100%;
 }
 
 nav{
-  text-align:center;
-  float:center;
-  margin-bottom: 40px;
-}
-
-.sticky{
-  position:sticky;
-  top:0;
-  padding: 0px;
-}
-
-.languagetab{
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-}
-
-.languagetab:hover{
-  background-color: #533AF6;
-  box-shadow: 0px 8px 16px 0px;
-}
-
-.language{
-display:none;
-position:absolute;
-background-color:#211E1E;
-box-shadow: 0px 8px 16px 0px;
-padding: inherit;
-margin-left:-5;
-color:#F4EAEA;
-}
-
-.language ul{
-  list-style-type: none;
-  padding-left:23px;
-  padding-right:11px;
-  padding-bottom:5px;
-  padding-top:5px;
-  margin-bottom: 10px;
-  margin-left: -5;
-}
-
-.English:hover{
-  text-decoration:underline;
-}
-.Spanish:hover{
-  text-decoration:underline;
-}
-.Chinese:hover{
-  text-decoration:underline;
-}
-.languagetab{
-}
-
-.dropdown{
-  position:relative;
-  display: inline-block;
-  margin-left: 10px;
-  padding-top: 5px;
-  padding-bottom:5px;
-  padding-left: 0px;
-  padding-right: 10px;
-  background-color: #211E1E;
-}
-
-.dropdown:hover .language{
-  display:block;
+  background-color: rgba(2,3,2,0.8);
 }
 
 h1{
   text-align: center;
-  padding-top:140px;
-  padding-bottom: 200px;
+  font-weight:bold;
+  padding-top:200px;
+  padding-bottom: 100px;
   font-size: 80px;
   margin-bottom: 0px;
 }
+.dropbtn {
+  background-color: rgba(2,3,2,0.8);
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+  top: -50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 135px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
 .intro{
   max-width: 1000px;
   padding:20px;
@@ -120,7 +76,7 @@ h1{
   font-weight: bold;
 }
 section{
-  margin: 0 auto;}
+  margin: 50px auto;}
 .gallery{border: 4px: solid #ccc;}
 }
 
@@ -166,8 +122,13 @@ body{
 
 @media (max-width:700px){
   h1{font-size: 36px;}
-  .tab{display:block;}
-  .languagetab{display:block}
   .gallery img{max-height:500px; max-width:auto;}
   .description {font-size:13px;}
+  li{text-align: center;}
+}
+
+@media (max-width:1100px){
+  h1{font-size: 45px;}
+  .gallery img{max-height:500px; max-width:auto;}
+  li{text-align: center;}
 }
