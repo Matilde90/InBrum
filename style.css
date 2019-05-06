@@ -183,12 +183,33 @@ small{
   small{font-size:16px;}
   .show-description p {
     height: 170px;}
+  .dropbtn{ padding-left: 10px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 14px;}
+  .dropdown-content {
+      min-width: 83px;
+      font-size: 14px;}
+  .dropdown-content a {
+      padding: 10px 10px;}
 }
 @media (max-width:500px){
   .bhampic{height:230px;}
   h1{font-size: 30px;}
   li{text-align: center;}
-  small{font-size:14px;}
+  small{font-size:16px;}
   .show-description p {
     height: 170px;}
+  .dropbtn{ padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;}
+  .dropdown-content {
+    min-width: 83px;
+    font-size: 14px;}
+  .dropdown-content a {
+    padding: 10px 10px;
+        }
 }
