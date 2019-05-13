@@ -1,3 +1,8 @@
+body{
+  margin:0 auto;
+  background-color: #F4EAEA;
+  font-family: 'Quattrocento', serif;
+}
 header{
   background-image: url(background.jpg);
   background-size: cover;
@@ -5,117 +10,73 @@ header{
   display:block;
   color: #F4EAEA;
   margin-bottom:0;
+  opacity: 1;
 }
-
-a{
-  color:#F4EAEA;
+ul{
+  width:100%;
 }
-
-ol{
-  padding:10px;
-  background:#211E1E;
-  width:cover;
-}
-
-.tab{
-  background-color: #211E1E;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  margin-left: 15px;
-  font-family: arial;
-  display:inline;
-}
-
-.tab:hover{
-  background-color:  #533AF6;
-  box-shadow: 0px 8px 16px 0px;
-  position:relative;
-}
-
-nav{
-  text-align:center;
-  float:center;
-  margin-bottom: 40px;
-}
-
-.sticky{
-  position:sticky;
-  top:0;
-  padding: 0px;
-}
-
-.languagetab{
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  font-family: arial;
-}
-
-.languagetab:hover{
-  background-color: #533AF6;
-  box-shadow: 0px 8px 16px 0px;
-}
-
-.language{
-display:none;
-position:absolute;
-background-color:#211E1E;
-box-shadow: 0px 8px 16px 0px;
-padding: inherit;
-margin-left:-5;
-font-family: arial;
-color:#F4EAEA;
-}
-
-.language ul{
-  list-style-type: none;
-  padding-left:23px;
-  padding-right:11px;
-  padding-bottom:5px;
-  padding-top:5px;
-  margin-bottom: 10px;
-  margin-left: -5;
-}
-
-.English:hover{
-  text-decoration:underline;
-}
-.Spanish:hover{
-  text-decoration:underline;
-}
-.Chinese:hover{
-  text-decoration:underline;
-}
-.languagetab{
-font-family: arial;
-}
-
-.dropdown{
-  position:relative;
-  display: inline-block;
-  margin-left: 10px;
-  padding-top: 5px;
-  padding-bottom:5px;
-  padding-left: 0px;
-  padding-right: 10px;
-  background-color: #211E1E;
-  font-family: arial;
-}
-
-.dropdown:hover .language{
-  display:block;
-}
-
-h1{
-  font-family: arial;
+li{
   text-align: center;
-  padding-top:140px;
-  padding-bottom: 200px;
+}
+a{
+  color: #F4EAEA;
+}
+nav{
+  background-color: rgba(2,3,2,0.8);
+}
+.navbar{
+  position: sticky;
+  top:0;
+  z-index: 2;
+}
+h1{
+  text-align: center;
+  font-weight:bold;
+  padding-top:200px;
+  padding-bottom: 100px;
   font-size: 80px;
   margin-bottom: 0px;
+}
+.dropbtn {
+  background-color: rgba(200,200,200,0.6);
+  color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover .dropbtn:focus {
+  background-color: #3e8e41;
+}
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 135px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block;
 }
 .intro{
   max-width: 1000px;
@@ -123,48 +84,132 @@ h1{
   position:relative;
   text-align:center;
   margin:0 auto;
+  font-weight: bold;
 }
 section{
-  margin: 0 auto;
-.gallery{border: 4px: solid #ccc;}
+  margin: 5%
 }
-
-article{
+.backgr{
+  background-color: rgba(200,200,200,0.6);
+  padding:2%;
 }
-
-.content {
-  background-color:#C5D1D4;
+.bhampic{
+  position: relative;
+  margin: 1.2% 8%;
+  border-radius: 12px;
+  height: 500px;
+  width: auto;
 }
-
-.gallery:hover{
-  border: solid #613;}
-
-.gallery{
-  padding-top: 0px;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: #C7E4EA;
+#sellyoak{
+  background-image: url(sellyoak.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat
 }
-.gallery img{
-  max-height: 600px;
-  max-width: 600px;
-  border-radius: 8px;
+#moseley{
+  background-image: url(moseley.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat
 }
-
-body{
-  margin:0 auto;
-  background-color: #F4EAEA;
+#edgbaston{
+  background-image: url(edgbaston.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat
 }
-
-.description{
-  font-size: 20px;
-  max-width: 600px;
+#erdington{
+  background-image: url(erdington.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat
+}
+#harborne{
+  background-image: url(harborne.jpg);
+  background-size:100%;
+  background-repeat: no-repeat
+}
+#citycentre{
+  background-image: url(citycentre.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat
+  }
+#brindleyplace{
+  background-image: url(brindleyplace.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat
+  }
+p{
+  padding: 10px;
+  font-size: 30px;
+  line-height: 24px;
+  color: #F4EAEA;
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  line-height: 28px;
   text-align: justify;
-  padding-bottom: 3%;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 50px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+  width:100%;
 }
-
+small {
+  opacity: 0;
+}
+.show-description p {
+  height: 150px;
+  width:100%;
+}
+.show-description small {
+  opacity: 1;
+}
+small{
+  font-size:20px;
+}
+@media (max-width:1100px){
+  .bhampic{height:350px;}
+  h1{font-size: 45px;}
+  li{text-align: center;}
+  small{font-size:18px;}
+}
 @media (max-width:700px){
   h1{font-size: 36px;}
-  .tab{display:block;}
-  .languagetab{display:block}
+  .bhampic{height:300px;}
+  .description {font-size:13px;}
+  li{text-align: center;}
+  section{padding-top: 10px;}
+  small{font-size:16px;}
+  .show-description p {
+    height: 170px;}
+  .dropbtn{ padding-left: 10px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 14px;}
+  .dropdown-content {
+      min-width: 83px;
+      font-size: 14px;}
+  .dropdown-content a {
+      padding: 10px 10px;}
+}
+@media (max-width:500px){
+  .bhampic{height:230px;}
+  h1{font-size: 30px;}
+  li{text-align: center;}
+  small{font-size:16px;}
+  .show-description p {
+    height: 170px;}
+  .dropbtn{ padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;}
+  .dropdown-content {
+    min-width: 83px;
+    font-size: 14px;}
+  .dropdown-content a {
+    padding: 10px 10px;
+        }
 }
