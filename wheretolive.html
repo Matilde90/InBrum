@@ -1,78 +1,156 @@
+<!DOCTYPE html>
 <html lang="eng">
-<title>In Brum</title> <link href="style.css" rel="stylesheet"/>
-<head></head>
+<head>
+  <title>In Brum</title>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+</head>
 <body>
-<header>
-  <div>
-  <div class="sticky">
-  <nav>
-    <ol>
-      <ul class="tab"><a href="whybirmingham">Why Birmingham</a></ul>
-      <ul class="tab"><a href"wheretolive"><u>Where to Live</u></a></ul>
-      <ul class="tab"><a href="whattosee">What to See</a></ul>
-      <ul class="tab"><a href="whattodo">What to Do</a></ul>
-      <ul class="tab"><a href="howtogoaround">How to go Around</a></ul>
-      <ul class="tab"><a href="practicalinformation">Practical Information</a></ul>
-      <div class="dropdown">
-      <ul class="languagetab"><a><u>Languages</u></a>
-        <div class="language">
-          <ul>
-            <li class="English">English</li>
-            <li class="Spanish">Spanish</li>
-            <li class="Chinese">Chinese</li>
-          </ul>
-      </ul>
-    </ol>
-  </nav>
-</div>
-</div>
 
-  <h1>Where to live in Birmingham?</h1>
+<!--LOGO !-->
+<div id="intro">
+    <div class="cabin">
+      <div class="in">IN</div>
+      <div class="screenone"></div>
+      <div class="screentwo"></div>
+      <div class="screenoval"></div>
+    </div>
+    <div class="bow">
+      <div class="brum">BRUM</div>
+    </div>
+</div>
+<!--Header !-->
+<header>
+<nav class="navbar">
+<ul class="nav nav-pills flex-sm-row">
+  <li class="nav-item col-md-2">
+  <a class="nav-link" href="#">Home</a>
+  </li>
+  <li class="nav-item col-md-2">
+    <a class="nav-link" href="#">Why Birmingham?</a>
+  </li>
+  <li class="nav-item col-md-2">
+    <a class="nav-link active" href="#">Where to Live</a>
+  </li>
+  <li class="nav-item col-md-2">
+    <a class="nav-link" href="#">What to Do</a>
+  </li>
+  <li class="nav-item col-md-2">
+    <a class="nav-link" href="#">How to go Around</a>
+  </li>
+  <li class="nav-item col-md-2">
+    <a class="nav-link" href="#">Practical Information</a>
+  </li>
+</ul>
+</nav>
+<h1>Where to live in Birmingham?</h1>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Language</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">English</a>
+    <a href="#about">Spanish</a>
+    <a href="#contact">Chinese</a>
+    <a href="#contact">Italian</a>
+  </div>
+</div>
 </header>
 
 <section>
 <h1 class="intro"> Whether you like the hustle and bustle of the city, leafy neighbouroods or the feeling of living in a little village, in Birmingham there is a neighbourood for you. </h1>
 </section>
-
-<article>
-  <div class="content">
-    <div class="gallery">
-        <img src="sellyoak.jpg" alt="Selly Oak" class="sellyoak">
-      <div class="description"> Selly Oak is the preferred neighbourhood for University of Birmingham Undergraduates </div>
-    </div>
-
-    <div class="gallery">
-        <img src="moseley.jpg" alt="Moseley">
-      <div class="description"> Do you like to live in a residential location well-connected to the city centre and enjoy a number of independent retailers? Do you like lindy hop and buddhist meditations? Then Moseley is the place for you! </div>
-    </div>
-
-    <div class="gallery">
-        <img src="edgbaston.jpg" alt="Edgbaston">
-      <div class="description"> Do you want to live in a leafy residential area close to the University of Birmingham and just about one mile to the city centre? Then Edgbaston is the place for you! </div>
-    </div>
-
-    <div class="gallery">
-        <img src="erdington.jpg" alt="Erdington">
-      <div class="description"> Do you want to live in a calm and residential area only two train stops away from Aston University? Erdington will be perfect for you! </div>
-    </div>
-
-    <div class="gallery">
-        <img src="harborne.jpg" alt="Harborne">
-      <div class="description"> If you want to live in a residential village with independent shops and restaurants, then Harborne is the place for you! </div>
-    </div>
-
-    <div class="gallery">
-        <img src="citycentre.jpg" alt="City Centre">
-      <div class="description"> If you are a city person who cannot live far from one of the world's best concert hall and the best Birmingham shopping mall, consider living in Birmingham city centre! </div>
-    </div>
-
-    <div class="gallery">
-        <img src="brindleyplace.jpg" alt="Brindleyplace">
-      <div class="description"> Do you like to enjoy the peace of the canals and the buzz of Birmingham nightlife? If so, Brindleyplace is a fantastic location for you! </div>
-    </div>
+<!--Selly Oak pic!-->
+<div class="backgr">
+  <div class="bhampic" id="sellyoak">
+  <p> Selly Oak <br />
+    <small>Selly Oak is the preferred neighbourhood for University of Birmingham Undergraduates</small>
+  </p>
   </div>
+<!--Moseley pic!-->
+  <div class="bhampic" id="moseley">
+  <p> Moseley <br />
+    <small>Do you like to live in a residential location well-connected to the city centre and enjoy a number of independent retailers?</small>
+  </p>
+  </div>
+<!--Edgbaston pic!-->
+  <div class="bhampic" id="edgbaston">
+  <p> Edgbaston <br />
+    <small>Do you want to live in a leafy residential area close to the University of Birmingham and Birmingham City University and just about one mile to the city centre? Then Edgbaston is the place for you!</small></p>
+  </div>
+<!--Erdington pic!-->
+  <div class="bhampic" id="erdington">
+  <p> Erdington <br />
+    <small>Do you want to live in a calm and residential area only two train stops away from Aston University? Erdington will be perfect for you!</small></p>
+  </div>
+<!--Harborne pic!-->
+  <div class="bhampic" id="harborne">
+  <p> Harborne <br />
+    <small>If you want to live in a residential village with independent shops and restaurants, then Harborne is the place for you!</small></p>
+  </div>
+<!--City Centre pic!-->
+  <div class="bhampic" id="citycentre">
+  <p> City Centre <br />
+    <small>If you are a city person who cannot live far from one of the world's best concert hall and the best Birmingham shopping malls, consider living in Birmingham city centre!</small></p>
+  </div>
+<!--Brindleyplace pic!-->
+  <div class="bhampic" id="brindleyplace">
+  <p> Brindleyplace <br />
+    <small>Do you like to enjoy the peace of the canals and the buzz of Birmingham nightlife? If so, Brindleyplace is a fantastic location for you!</small></p>
+  </div>
+  </div>
+  <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
 
-</article>
-</body>
+  <!-- Footer Elements -->
+  <div class="container">
 
-</html>
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <!-- Form -->
+        <form class="form-inline">
+          <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+            aria-label="Search">
+          <i class="fas fa-search" aria-hidden="true"></i>
+        </form>
+        <!-- Form -->
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <form class="input-group">
+          <input type="text" class="form-control form-control-sm" placeholder="Your email"
+            aria-label="Your email" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-sm btn-outline-white my-0" type="button">Sign up</button>
+          </div>
+        </form>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright: InBrum
+    <a href="http://github.com/Matilde90/InBrum">Follow us on GitHub!</a>
+  </div>
+  <!-- close cpyright -->
+</footer>
+<!-- close footer -->
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="wheretolive.js"></script>
+  </body>
+  </html>
