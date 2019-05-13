@@ -4,16 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Main page project</title>
-  <link rel="stylesheet" href='project.css'>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href='project.css'>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC|Bitter|Cabin+Sketch">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+
 <body>
-<div class="topnav">
-  <div class="topnav-right">
-    <a href="#Language">Language</a>
+<!-- Navigation bar -->
+<div class="topnavbar">
+<div class="ddown">
+    <button class="dbtn">Language<i class="fa fa-caret-down"></i></button>
+    <div class="ddown-content">
+      <a href="#">Catalan</a>
+      <a href="#">Chinese</a>
+      <a href="#">English</a>
+      <a href="#">Hindi</a>
+      <a href="#">Italian</a>
+    </div>
   </div>
 </div>
 
@@ -23,9 +32,9 @@
 </div>
 
 <!-- Container-Row-Column -->
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
+<div class="container-fluid">
+  <div class="row row-no-gutters">
+    <div class="column col-md-6">
       <img src="why_bham.jpg" style="width:100% ">
       <p class="questions"> Why Birmingham? </p>
       <img src="what_see.jpg" style="width:100%">
@@ -34,7 +43,7 @@
       <p class="questions"> How to Get Around? </p>
     </div>
 
-    <div class="col-md-6">
+    <div class="column col-md-6">
       <img src="where_live.jpg" style="width:100%">
       <p class="questions"> Where to Live? </p>
       <img src="what_do.jpg" style="width:100%">
@@ -45,25 +54,21 @@
   </div>
 </div>
 
-
-<div class="bottom">
-  <p> You can find us on: </p>
-</div>
-
-<div class="container" style="margin-bottom: 50px;">
-  <div class="row">
-    <div class="col-md-1">
+<!-- Social buttons -->
+<div class="container-fluid" style="margin-bottom: 50px">
+  <p id="bottom"> Follow us: </p>
+<div class="row">
+    <div class="col-md-12" style="margin-left:25px">
       <a href="#" class="fa fa-facebook"></a>
-    </div>
-    <div class="col-md-1">
       <a href="#" class="fa fa-twitter"></a>
-    </div>
-    <div class="col-md-1">
       <a href="#" class="fa fa-instagram"></a>
-    </div>
   </div>
 </div>
 
-
+<!-- Optional JavaScript -->
+<!-- jQuery, Popper.js, Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
