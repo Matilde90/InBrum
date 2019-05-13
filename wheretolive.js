@@ -1,3 +1,11 @@
+//logo animations
+  $('.brum').on('mouseover', function() {
+      $(this).toggleClass('brum2');
+  });
+
+  $('.in').on('mouseover', function() {
+      $(this).toggleClass('in2');
+  });
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
