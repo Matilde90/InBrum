@@ -1,0 +1,85 @@
+
+.cabin{
+  background-color: rgba(171, 15, 62, 1);
+  height: 30px;
+  width: 90px;
+  top: 20px;
+  left: 500px;
+  position: relative;
+  z-index: 2;
+}
+.in{
+position: relative;
+font-family: 'Gloria Hallelujah', cursive;
+font-size: 25px;
+top: -35px;
+left: 15px;
+color: black;
+padding:0;
+}
+.in2{
+  position: relative;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 33px;
+  top: -45px;
+  left: 15px;
+  color: black;
+  margin-bottom: -15px;
+}
+.screenone{
+  position: relative;
+  height:15px;
+  width:15px;
+  top: -42px;
+  right: -5px;
+  background-color:rgba(144, 215, 226, 1);
+}
+.screentwo{
+  position: relative;
+  top: -57px;
+  right: -27px;
+  height:15px;
+  width:15px;
+  background-color:rgba(144, 215, 226, 1);
+}
+.screenoval{
+  position: relative;
+  height:15px;
+  width:15px;
+  background-color:rgba(144, 215, 226, 1);
+  top: -72px;
+  right: -63px;
+  border-radius: 50%;
+  z-index: 2;
+}
+.bow{
+  border-top: 30px solid rgba(8, 113, 33, 1);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  height: 0;
+  width: 150px;
+  position:relative;
+  z-index: 1;
+  left: 465px;
+  top: 20px;
+}
+.brum{
+  position: relative;
+  top: -38px;
+  left: 45px;
+  z-index: 1;
+  color: black;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 25px;
+  border-color:black;
+}
+.brum2{
+  position: relative;
+  top: -46px;
+  left: 40px;
+  z-index: 1;
+  color: black;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 33px;
+  border-color:black;
+}
