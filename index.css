@@ -126,6 +126,7 @@ img {
 
 .questions:hover{
   opacity: 0.7;
+  color: white;
 }
 
 /* Social buttons */
