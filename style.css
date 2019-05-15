@@ -3,20 +3,29 @@ body{
   background-color: #F4EAEA;
   font-family: 'Quattrocento', serif;
 }
+/*logo*/
+#intro{
+  height: 90px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  background-color: rgba(200,200,200,0.6);
+  padding-left: 0;
+  margin: 0 auto;
+  z-index: 1px;
+}
 
 header{
   background-image: url(background.jpg);
   background-size: cover;
   background-position: center;
-  display:block;
   color: #F4EAEA;
   margin-bottom:0;
   opacity: 1;
+  position: relative;
+  top: 90px;
 }
-/*logo*/
-#intro{
-  height:90px;
-}
+
 .cabin{
   background-color: rgba(171, 15, 62, 1);
   height: 30px;
@@ -29,32 +38,32 @@ header{
 .in{
 position: relative;
 font-family: 'Gloria Hallelujah', cursive;
-font-size: 25px;
-top: -29px;
-left: 25px;
+font-size: 22px;
+top: -25px;
+left: 20px;
 color: black;
 padding:0;
 }
 .in2{
   position: relative;
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 33px;
-  top: -25px;
+  font-size: 28px;
+  top: -33px;
   left: 15px;
   color: black;
-  margin-bottom: -15px;
+  margin-bottom: -9px;
 }
 .screenone{
   position: relative;
   height:15px;
   width:15px;
-  top: -32px;
+  top: -28px;
   right: -5px;
   background-color:rgba(144, 215, 226, 1);
 }
 .screentwo{
   position: relative;
-  top: -47px;
+  top: -43px;
   right: -30px;
   height:15px;
   width:15px;
@@ -65,7 +74,7 @@ padding:0;
   height:15px;
   width:15px;
   background-color:rgba(144, 215, 226, 1);
-  top: -62px;
+  top: -58px;
   right: -65px;
   border-radius: 50%;
   z-index: 2;
@@ -83,7 +92,7 @@ padding:0;
 }
 .brum{
   position: relative;
-  top: -35px;
+  top: -33px;
   left: 30px;
   z-index: 1;
   color: black;
@@ -93,8 +102,8 @@ padding:0;
 }
 .brum2{
   position: relative;
-  top: -46px;
-  left: 40px;
+  top: -38px;
+  left: 30px;
   z-index: 1;
   color: black;
   font-family: 'Gloria Hallelujah', cursive;
