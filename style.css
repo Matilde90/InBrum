@@ -4,7 +4,7 @@ body{
   font-family: 'Quattrocento', serif;
 }
 /*logo*/
-#intro{
+#introd{
   height: 90px;
   width: 100%;
   z-index: 1;
@@ -181,7 +181,7 @@ h1{
   padding:20px;
   position:relative;
   text-align:center;
-  margin:0 auto;
+  margin-top:140px;
   font-weight: bold;
 }
 section {
