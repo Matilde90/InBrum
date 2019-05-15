@@ -274,7 +274,7 @@ small {
 }
 @media (max-width:700px) {
   h1{font-size: 36px;}
-  .bhampic{height:300px;}
+  .bhampic{height:220px;}
   .description {font-size:13px;}
   li{text-align: center;}
   section{padding-top: 10px;}
@@ -293,7 +293,7 @@ small {
       padding: 10px 10px;}
 }
 @media (max-width:500px) {
-  .bhampic{height:230px;}
+  .bhampic{height:180px;}
   h1{font-size: 30px;}
   li{text-align: center;}
   small{font-size:16px;}
