@@ -178,13 +178,14 @@ h1{
 }
 .intro{
   max-width: 1500px;
-  padding-top:1%%;
+  padding-top:10%;
   position:relative;
   text-align:center;
   font-weight: bold;
-  margin-top: 0;
+  margin-top: 10px;
   padding-left: 3%;
   padding-right: 3%;
+  margin-bottom: -25px;
 }
 section {
   margin: 5%
@@ -273,12 +274,10 @@ small {
   h1{font-size: 45px;}
   li{text-align: center;}
   small{font-size:18px;}
-  .cabin{
-    left: 430px;
-      }
-  .bow{
-    left: 400px;
-        }
+  .cabin{left: 430px;}
+  .bow{left: 400px;}
+  .intro{padding-top:19%;
+    margin-top: 15px;}
 }
 @media (max-width:700px) {
   h1{font-size: 36px;}
@@ -299,12 +298,10 @@ small {
     font-size: 14px;}
   .dropdown-content a {
     padding: 10px 10px;}
-  .cabin{
-      left: 330px;
-        }
-  .bow{
-      left: 300px;
-          }
+  .cabin{left: 330px;}
+  .bow{left: 300px;}
+  .intro{padding-top:13%;
+    margin-top: 28px;}
 }
 @media (max-width:500px) {
   .bhampic{height:180px;}
@@ -326,9 +323,8 @@ small {
   .cabin{
     left: 220px;
     position: relative;
-    z-index: -1;
-  }
-  .bow{
-  left: 190px;
-    }
+    z-index: -1;}
+  .bow{left: 190px;}
+  .intro{padding-top:15%;
+      margin-top: 33px;}
 }
