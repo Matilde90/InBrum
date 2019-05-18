@@ -416,7 +416,7 @@ small {
   .intro{padding-top:15%;
       margin-top: 33px;}
 }
-@media (max-width:350px) {
+@media (max-width:400px) {
   .bhampic{height:100px;}
   h1{font-size: 22px;}
   small{font-size:13px;}
@@ -425,8 +425,8 @@ small {
     line-height: 12px;
     height: 100px;}
     .cabin{
-      left: 120px;
+      left: 160px;
       position: relative;
       z-index: -1;}
-    .bow{left: 90px;}
+    .bow{left: 130px;}
 }
