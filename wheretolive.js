@@ -8,7 +8,7 @@ $('.in').on('mouseover', function() {
       $(this).toggleClass('in2');
   });
 
-$('document').ready(function() {
+$('.bow').on('mouseover', function() {
       $('.bow').animate({left: '73px'},{duration:9000, queue: false});
       $('.cabin').animate({left: '100px'},{duration: 9000, queue:false});
     });
