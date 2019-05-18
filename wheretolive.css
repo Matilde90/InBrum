@@ -391,12 +391,13 @@ small {
     margin-top: 28px;}
 }
 @media (max-width:500px) {
-  .bhampic{height:180px;}
+  .bhampic{height:160px;}
   h1{font-size: 30px;}
   li{text-align: center;}
-  small{font-size:16px;}
+  small{font-size:15px;}
   .show-description p {
-    height: 170px;}
+    height: 160px;
+    font-size: 14px;}
   .dropbtn{ padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -416,27 +417,16 @@ small {
       margin-top: 33px;}
 }
 @media (max-width:350px) {
-  .bhampic{height:120px;}
-  h1{font-size: 30px;}
-  li{text-align: center;}
-  small{font-size:16px;}
+  .bhampic{height:100px;}
+  h1{font-size: 22px;}
+  small{font-size:13px;}
   .show-description p {
-    height: 170px;}
-  .dropbtn{ padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 14px;}
-  .dropdown-content {
-    min-width: 83px;
-    font-size: 14px;}
-  .dropdown-content a {
-    padding: 10px 10px;}
-  .cabin{
-    left: 180px;
-    position: relative;
-    z-index: -1;}
-  .bow{left: 160px;}
-  .intro{padding-top:15%;
-      margin-top: 33px;}
+    font-size: 12px;
+    line-height: 12px;
+    height: 100px;}
+    .cabin{
+      left: 120px;
+      position: relative;
+      z-index: -1;}
+    .bow{left: 90px;}
 }
