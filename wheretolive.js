@@ -1,13 +1,17 @@
 //logo animations
 
-  $('.brum').on('mouseover', function() {
+$('.brum').on('mouseover', function() {
       $(this).toggleClass('brum2');
   });
 
-  $('.in').on('mouseover', function() {
+$('.in').on('mouseover', function() {
       $(this).toggleClass('in2');
   });
 
+$('document').ready(function() {
+      $('.bow').animate({left: '73px'},{duration:9000, queue: false});
+      $('.cabin').animate({left: '100px'},{duration: 9000, queue:false});
+    });
 function myFunction() {
   document.getElementByClassName("ddown-content").classList.toggle("show");
   }
