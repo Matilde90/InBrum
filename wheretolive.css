@@ -361,8 +361,8 @@ small {
   h1{font-size: 45px;}
   li{text-align: center;}
   small{font-size:18px;}
-  .cabin{left: 430px;}
-  .bow{left: 400px;}
+  .cabin{left: 400px;}
+  .bow{left: 370px;}
   .intro{padding-top:19%;
     margin-top: 15px;}
 }
@@ -385,8 +385,8 @@ small {
     font-size: 14px;}
   .dropdown-content a {
     padding: 10px 10px;}
-  .cabin{left: 330px;}
-  .bow{left: 300px;}
+  .cabin{left: 300px;}
+  .bow{left: 270px;}
   .intro{padding-top:13%;
     margin-top: 28px;}
 }
@@ -408,11 +408,8 @@ small {
     font-size: 14px;}
   .dropdown-content a {
     padding: 10px 10px;}
-  .cabin{
-    left: 220px;
-    position: relative;
-    z-index: -1;}
-  .bow{left: 190px;}
+  .cabin{left: 200px;}
+  .bow{left: 170px;}
   .intro{padding-top:15%;
       margin-top: 33px;}
 }
@@ -424,9 +421,12 @@ small {
     font-size: 12px;
     line-height: 12px;
     height: 100px;}
+    .cabin{left: 140px;}
+    .bow{left: 110px;}
+}
+
+@media (max-width:300px) {
     .cabin{
-      left: 160px;
-      position: relative;
-      z-index: -1;}
-    .bow{left: 130px;}
+      left: 100px;}
+    .bow{left: 70px;}
 }

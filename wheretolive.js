@@ -13,7 +13,7 @@ $('.bow').on('mouseover', function() {
       $('.cabin').animate({left: '100px'},{duration: 9000, queue:false});
     });
 //logo animation for mobile
-$('.brum').on('touchstart', function() {
+$('.brum').on('tap', function() {
       $(this).toggleClass('brum2');
   });
 
