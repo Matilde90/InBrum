@@ -361,6 +361,44 @@ small {
   padding-bottom: 10px;
   padding-top: 80px;
 }
+
+
+/* Social buttons */
+.socialb {
+  display: flex;
+  justify-content: center
+}
+
+.fa {
+  width: 50px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Bottom */
+.footer2 {
+  margin-bottom: 30px
+}
+
 /* Google form div*/
 @media (max-width:1100px) {
   .bhampic{height:280px;}
