@@ -78,7 +78,7 @@ body {
 }
 
 
-/* Main CSS */
+/* Header + Subtitle */
 .header {
   text-align: center;
   font-family: 'Cabin Sketch', cursive;
@@ -131,17 +131,24 @@ img {
   color: white;
 }
 
-/* Social buttons */
+/* Second line footer */
+.footer2 {
+  margin-bottom: 30px
+}
+
+.socialb {
+  display: flex;
+  justify-content: center
+}
+
 .fa {
   width: 50px;
   padding: 20px;
   font-size: 30px;
-  text-align: center;
-  text-decoration: none;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
@@ -159,10 +166,11 @@ img {
   color: white;
 }
 
-/* Bottom */
-#bottom {
-  padding: 20px;
-  font-size: 17px;
-  font-weight: bold;
-  margin-left: 7px;
+.form{
+  text-align: center;
+}
+.practical{
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 80px;
 }
