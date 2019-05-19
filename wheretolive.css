@@ -26,8 +26,8 @@ header{
   top: 90px;
 }
 .practicalhead{
-background-image: url(practicalinfo.jpg);
-}
+  background-image: url(practicalinfo.jpg);
+  }
 .cabin{
   background-color: rgba(171, 15, 62, 1);
   height: 30px;
@@ -38,14 +38,14 @@ background-image: url(practicalinfo.jpg);
   z-index: -1;
 }
 .in{
-position: relative;
-font-family: 'Gloria Hallelujah', cursive;
-font-size: 22px;
-top: -25px;
-left: 20px;
-color: black;
-padding:0;
-}
+  position: relative;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 22px;
+  top: -25px;
+  left: 20px;
+  color: black;
+  padding:0;
+  }
 .in2{
   position: relative;
   font-family: 'Gloria Hallelujah', cursive;
@@ -112,6 +112,13 @@ padding:0;
   font-size: 33px;
   border-color:black;
 }
+.canal{
+  height: 10px;
+  background-color: blue;
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  z-index: -1;}
 ul{
   width:100%;
 }
@@ -306,12 +313,12 @@ section {
   background-image: url(citycentre.jpg);
   background-size: 100%;
   background-repeat: no-repeat
-  }
+}
 #brindleyplace{
   background-image: url(brindleyplace.jpg);
   background-size: 100%;
   background-repeat: no-repeat
-  }
+}
 p {
   padding: 10px;
   font-size: 30px;
@@ -345,7 +352,6 @@ small {
 small {
   font-size:20px;
 }
-
 /* Google form div*/
 .form{
   text-align: center;
@@ -361,8 +367,8 @@ small {
   h1{font-size: 45px;}
   li{text-align: center;}
   small{font-size:18px;}
-  .cabin{left: 430px;}
-  .bow{left: 400px;}
+  .cabin{left: 400px;}
+  .bow{left: 370px;}
   .intro{padding-top:19%;
     margin-top: 15px;}
 }
@@ -385,18 +391,19 @@ small {
     font-size: 14px;}
   .dropdown-content a {
     padding: 10px 10px;}
-  .cabin{left: 330px;}
-  .bow{left: 300px;}
+  .cabin{left: 300px;}
+  .bow{left: 270px;}
   .intro{padding-top:13%;
     margin-top: 28px;}
 }
 @media (max-width:500px) {
-  .bhampic{height:180px;}
+  .bhampic{height:160px;}
   h1{font-size: 30px;}
   li{text-align: center;}
-  small{font-size:16px;}
+  small{font-size:15px;}
   .show-description p {
-    height: 170px;}
+    height: 160px;
+    font-size: 14px;}
   .dropbtn{ padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -407,36 +414,25 @@ small {
     font-size: 14px;}
   .dropdown-content a {
     padding: 10px 10px;}
-  .cabin{
-    left: 220px;
-    position: relative;
-    z-index: -1;}
-  .bow{left: 190px;}
+  .cabin{left: 200px;}
+  .bow{left: 170px;}
   .intro{padding-top:15%;
       margin-top: 33px;}
 }
-@media (max-width:350px) {
-  .bhampic{height:120px;}
-  h1{font-size: 30px;}
-  li{text-align: center;}
-  small{font-size:16px;}
+@media (max-width:400px) {
+  .bhampic{height:100px;}
+  h1{font-size: 22px;}
+  small{font-size:13px;}
   .show-description p {
-    height: 170px;}
-  .dropbtn{ padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 14px;}
-  .dropdown-content {
-    min-width: 83px;
-    font-size: 14px;}
-  .dropdown-content a {
-    padding: 10px 10px;}
-  .cabin{
-    left: 180px;
-    position: relative;
-    z-index: -1;}
-  .bow{left: 160px;}
-  .intro{padding-top:15%;
-      margin-top: 33px;}
+    font-size: 12px;
+    line-height: 12px;
+    height: 100px;}
+    .cabin{left: 140px;}
+    .bow{left: 110px;}
+}
+
+@media (max-width:300px) {
+    .cabin{
+      left: 100px;}
+    .bow{left: 70px;}
 }
