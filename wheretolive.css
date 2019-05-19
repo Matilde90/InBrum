@@ -26,8 +26,8 @@ header{
   top: 90px;
 }
 .practicalhead{
-background-image: url(practicalinfo.jpg);
-}
+  background-image: url(practicalinfo.jpg);
+  }
 .cabin{
   background-color: rgba(171, 15, 62, 1);
   height: 30px;
@@ -38,14 +38,14 @@ background-image: url(practicalinfo.jpg);
   z-index: -1;
 }
 .in{
-position: relative;
-font-family: 'Gloria Hallelujah', cursive;
-font-size: 22px;
-top: -25px;
-left: 20px;
-color: black;
-padding:0;
-}
+  position: relative;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 22px;
+  top: -25px;
+  left: 20px;
+  color: black;
+  padding:0;
+  }
 .in2{
   position: relative;
   font-family: 'Gloria Hallelujah', cursive;
@@ -313,12 +313,12 @@ section {
   background-image: url(citycentre.jpg);
   background-size: 100%;
   background-repeat: no-repeat
-  }
+}
 #brindleyplace{
   background-image: url(brindleyplace.jpg);
   background-size: 100%;
   background-repeat: no-repeat
-  }
+}
 p {
   padding: 10px;
   font-size: 30px;
@@ -352,7 +352,6 @@ small {
 small {
   font-size:20px;
 }
-
 /* Google form div*/
 .form{
   text-align: center;

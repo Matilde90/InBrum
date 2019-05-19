@@ -1,5 +1,4 @@
-//logo animations
-
+//logo animations for Desktop
 $('.brum').on('mouseover', function() {
       $(this).toggleClass('brum2');
   });
@@ -12,6 +11,7 @@ $('.bow').on('mouseover', function() {
       $('.bow').animate({left: '73px'},{duration:9000, queue: false});
       $('.cabin').animate({left: '100px'},{duration: 9000, queue:false});
     });
+
 //logo animation for mobile
 $('.brum').on('tap', function() {
       $(this).toggleClass('brum2');
@@ -26,7 +26,7 @@ $('.bow').on('tap', function() {
       $('.cabin').animate({left: '100px'},{duration: 9000, queue:false});
     });
 
-
+//dropdown
 function myFunction() {
   document.getElementByClassName("ddown-content").classList.toggle("show");
   }
