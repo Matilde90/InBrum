@@ -120,7 +120,7 @@ body {
 /* Header ***************/
 header {
   background-image: url(Bshoes.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center;
   display:block;
   color: #F4EAEA;
