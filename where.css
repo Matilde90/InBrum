@@ -1,4 +1,4 @@
-body{
+body {
   margin:0 auto;
   background-color: #F4EAEA;
   font-family: 'Quattrocento', serif;
@@ -27,11 +27,34 @@ header{
   top: 90px;
 }
 
-.practicalhead{
+/* Whowe Pic & Text ***************/
+.picMN{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  width: 500px;
+  height: auto;
+  margin-top: 90px;
+  border:1px solid #021a40;
+  padding:1px;
+}
+
+.whowe {
+  font-size: 25px;
+  padding: 60px 150px;
+  text-align: justify;
+}
+
+.bolder{
+  font-weight: 900;
+}
+.practicalhead {
   background-image: url(practicalinfo.jpg);
   }
 
-.cabin{
+.cabin {
   background-color: rgba(171, 15, 62, 1);
   height: 30px;
   width: 90px;
@@ -41,7 +64,7 @@ header{
   z-index: -1;
 }
 
-.in{
+.in {
   position: relative;
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 22px;
@@ -51,7 +74,7 @@ header{
   padding:0;
   }
 
-.in2{
+.in2 {
   position: relative;
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 28px;
@@ -61,7 +84,7 @@ header{
   margin-bottom: -9px;
 }
 
-.screenone{
+.screenone {
   position: relative;
   height:15px;
   width:15px;
@@ -70,7 +93,7 @@ header{
   background-color:rgba(144, 215, 226, 1);
 }
 
-.screentwo{
+.screentwo {
   position: relative;
   top: -43px;
   right: -30px;
@@ -79,7 +102,7 @@ header{
   background-color:rgba(144, 215, 226, 1);
 }
 
-.screenoval{
+.screenoval {
   position: relative;
   height:15px;
   width:15px;
@@ -90,7 +113,7 @@ header{
   z-index: 2;
 }
 
-.bow{
+.bow {
   border-top: 30px solid rgba(8, 113, 33, 1);
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
@@ -102,7 +125,7 @@ header{
   top: 22px;
 }
 
-.brum{
+.brum {
   position: relative;
   top: -33px;
   left: 30px;
@@ -113,7 +136,7 @@ header{
   border-color:black;
 }
 
-.brum2{
+.brum2 {
   position: relative;
   top: -38px;
   left: 30px;
@@ -124,7 +147,7 @@ header{
   border-color:black;
 }
 
-.canal{
+.canal {
   height: 10px;
   background-color: blue;
   position: relative;
@@ -132,29 +155,29 @@ header{
   width: 100%;
   z-index: -1;}
 
-ul{
+ul {
   width:100%;
 }
 
-li{
+li {
   text-align: center;
 }
 
-a{
+a {
   color: #F4EAEA;
 }
 
-nav{
+nav {
   background-color: rgba(2,3,2,0.8);
 }
 
-.navbar{
+.navbar {
   position: sticky;
   top:0;
   z-index: 2;
 }
 
-h1{
+h1 {
   text-align: center;
   font-weight:bold;
   padding-top:200px;
@@ -229,7 +252,6 @@ h1{
   display: block;
 }
 
-
 .intro{
   max-width: 1500px;
   padding-top:10%;
@@ -257,48 +279,36 @@ section {
   border-radius: 12px;
   height: 450px;
   width: auto;
+  background-size: 100%;
+  background-repeat: no-repeat
 }
 
 #sellyoak {
   background-image: url(sellyoak.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat
 }
 
 #moseley {
   background-image: url(moseley.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat
 }
 
 #edgbaston {
   background-image: url(edgbaston.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat
 }
 
 #erdington {
   background-image: url(erdington.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat
 }
 
 #harborne {
   background-image: url(harborne.jpg);
-  background-size:100%;
-  background-repeat: no-repeat
 }
 
 #citycentre {
   background-image: url(citycentre.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat
 }
 
 #brindleyplace{
   background-image: url(brindleyplace.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat
 }
 
 p {
