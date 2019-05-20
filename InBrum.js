@@ -58,10 +58,10 @@ window.ontap = function(event) {
   }
 }
 //this shows the pic description when you click on the pic name
-  $('.bhampic').on('click', function() {
+$('.bhampic').on('click', function() {
       $(this).toggleClass('show-description');
-  });
+});
 // This is for mobile
-  $('.bhampic').on('tap', function() {
+$('.bhampic').on('tap', function() {
       $(this).toggleClass('show-description');
-  });
+});

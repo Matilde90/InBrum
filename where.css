@@ -72,7 +72,7 @@ header {
   left: 20px;
   color: black;
   padding:0;
-  }
+ }
 
 .in2 {
   position: relative;
@@ -153,7 +153,8 @@ header {
   position: relative;
   margin-top: 20px;
   width: 100%;
-  z-index: -1;}
+  z-index: -1;
+}
 
 ul {
   width:100%;
