@@ -473,7 +473,7 @@ small{font-size:12px;}
 
 @media (max-width:400px) {
 header{background-size: cover}
-.bhampic{height:350px;}
+.bhampic{height:300px;}
 .title_pic{font-size:14px;}
 .description{font-size:10px;}
 h1{font-size: 22px;}
@@ -492,4 +492,5 @@ header{background-size: cover}
 .cabin{
 left: 100px;}
 .bow{left: 70px;}
+.bhampic{height:200px;}
 }
