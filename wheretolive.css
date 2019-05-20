@@ -130,6 +130,7 @@ header{
   margin-top: 20px;
   width: 100%;
   z-index: -1;}
+
 ul{
   width:100%;
 }
@@ -160,50 +161,7 @@ h1{
   font-size: 80px;
   margin-bottom: 0px;
 }
-/*Style langnavbar*/
-/*
-.dropbtn {
-  background-color: rgba(200,200,200,0.6);
-  color: black;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
-}
-.dropbtn:hover .dropbtn:focus {
-  background-color: #3e8e41;
-}
-.dropdown {
-  float: right;
-  position: relative;
-  display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 135px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  right: 0;
-  z-index: 1;
-}
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown a:hover {
-  background-color: #ddd;
-}
-.show {
-  display: block;
-}
-*/
+
 /* Language Bar */
 .langnavbar {
   overflow: hidden;

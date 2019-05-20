@@ -4,6 +4,120 @@ body {
   font-family: 'Quattrocento', serif;
 }
 
+/* Logo ***************/
+#introd {
+  height: 90px;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  background-color: rgba(200,200,200,0.6);
+  padding-left: 0;
+  margin: 0 auto;
+  z-index: 1px;
+}
+
+.cabin{
+  background-color: rgba(171, 15, 62, 1);
+  height: 30px;
+  width: 90px;
+  top: 25px;
+  left: 640px;
+  position: relative;
+  z-index: -1;
+}
+
+.in{
+  position: relative;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 22px;
+  top: -25px;
+  left: 20px;
+  color: black;
+  padding:0;
+  }
+/*
+.in2{
+  position: relative;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 28px;
+  top: -33px;
+  left: 15px;
+  color: black;
+  margin-bottom: -9px;
+}*/
+
+.screenone{
+  position: relative;
+  height:15px;
+  width:15px;
+  top: -28px;
+  right: -5px;
+  background-color:rgba(144, 215, 226, 1);
+}
+
+.screentwo{
+  position: relative;
+  top: -43px;
+  right: -30px;
+  height:15px;
+  width:15px;
+  background-color:rgba(144, 215, 226, 1);
+}
+
+.screenoval{
+  position: relative;
+  height:15px;
+  width:15px;
+  background-color:rgba(144, 215, 226, 1);
+  top: -58px;
+  right: -65px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.bow{
+  border-top: 30px solid rgba(8, 113, 33, 1);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  height: 0;
+  width: 150px;
+  position:relative;
+  z-index: -1;
+  left: 610px;
+  top: 22px;
+}
+
+.brum{
+  position: relative;
+  top: -33px;
+  left: 30px;
+  z-index: 1;
+  color: black;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 25px;
+  border-color:black;
+}
+
+.brum2{
+  position: relative;
+  top: -38px;
+  left: 30px;
+  z-index: 1;
+  color: black;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 33px;
+  border-color:black;
+}
+
+.canal{
+  height: 10px;
+  background-color: blue;
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  z-index: -1;}
+
+/* Header ***************/
 header {
   background-image: url(Bshoes.jpg);
   background-size: 100% auto;
@@ -12,6 +126,8 @@ header {
   color: #F4EAEA;
   margin-bottom:0;
   opacity: 0.95;
+  position: relative;
+  top: 90px;
 
 }
 
