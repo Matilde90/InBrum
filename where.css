@@ -32,7 +32,6 @@ header{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
   border-radius: 50%;
   width: 500px;
   height: auto;
@@ -405,6 +404,10 @@ small {
   .bow{left: 370px;}
   .intro{padding-top:19%;
     margin-top: 15px;}
+  img{si}
+  .whowe {
+	  font-size: 25px;
+	  padding: 60px 150px;
 }
 
 @media (max-width:700px) {
@@ -430,6 +433,10 @@ small {
   .bow{left: 270px;}
   .intro{padding-top:13%;
     margin-top: 28px;}
+  .picMN{width: 300px;}
+  .whowe {
+	 font-size: 20px;
+	 padding: 40px 80px;
 }
 
 @media (max-width:500px) {
@@ -454,6 +461,10 @@ small {
   .bow{left: 170px;}
   .intro{padding-top:15%;
       margin-top: 33px;}
+  .picMN{width: 300px;}
+  .whowe {
+	 font-size: 18px;
+	 padding: 30px 60px;
 }
 
 @media (max-width:400px) {
@@ -461,15 +472,22 @@ small {
   h1{font-size: 22px;}
   small{font-size:13px;}
   .show-description p {
-    font-size: 12px;
-    line-height: 12px;
-    height: 100px;}
-    .cabin{left: 140px;}
-    .bow{left: 110px;}
+  font-size: 12px;
+  line-height: 12px;
+  height: 100px;}
+  .cabin{left: 140px;}
+  .bow{left: 110px;}
+  .picMN{width: 200px;}
+  .whowe {
+	 font-size: 14px;
+	 padding: 20px 40px;
 }
 
 @media (max-width:300px) {
-    .cabin{
-      left: 100px;}
-    .bow{left: 70px;}
+   .cabin{left: 100px;}
+   .bow{left: 70px;}
+	.picMN{width: 200px;}
+	.whowe {
+	 font-size: 12px;
+	 padding: 20px 40px;
 }
