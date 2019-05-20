@@ -25,9 +25,11 @@ header{
   position: relative;
   top: 90px;
 }
+
 .practicalhead{
   background-image: url(practicalinfo.jpg);
   }
+
 .cabin{
   background-color: rgba(171, 15, 62, 1);
   height: 30px;
@@ -37,6 +39,7 @@ header{
   position: relative;
   z-index: -1;
 }
+
 .in{
   position: relative;
   font-family: 'Gloria Hallelujah', cursive;
@@ -46,6 +49,7 @@ header{
   color: black;
   padding:0;
   }
+
 .in2{
   position: relative;
   font-family: 'Gloria Hallelujah', cursive;
@@ -55,6 +59,7 @@ header{
   color: black;
   margin-bottom: -9px;
 }
+
 .screenone{
   position: relative;
   height:15px;
@@ -63,6 +68,7 @@ header{
   right: -5px;
   background-color:rgba(144, 215, 226, 1);
 }
+
 .screentwo{
   position: relative;
   top: -43px;
@@ -71,6 +77,7 @@ header{
   width:15px;
   background-color:rgba(144, 215, 226, 1);
 }
+
 .screenoval{
   position: relative;
   height:15px;
@@ -81,6 +88,7 @@ header{
   border-radius: 50%;
   z-index: 2;
 }
+
 .bow{
   border-top: 30px solid rgba(8, 113, 33, 1);
   border-left: 8px solid transparent;
@@ -92,6 +100,7 @@ header{
   left: 610px;
   top: 22px;
 }
+
 .brum{
   position: relative;
   top: -33px;
@@ -102,6 +111,7 @@ header{
   font-size: 25px;
   border-color:black;
 }
+
 .brum2{
   position: relative;
   top: -38px;
@@ -112,6 +122,7 @@ header{
   font-size: 33px;
   border-color:black;
 }
+
 .canal{
   height: 10px;
   background-color: blue;
@@ -122,20 +133,25 @@ header{
 ul{
   width:100%;
 }
+
 li{
   text-align: center;
 }
+
 a{
   color: #F4EAEA;
 }
+
 nav{
   background-color: rgba(2,3,2,0.8);
 }
+
 .navbar{
   position: sticky;
   top:0;
   z-index: 2;
 }
+
 h1{
   text-align: center;
   font-weight:bold;
@@ -225,6 +241,7 @@ h1{
   font-family: inherit;
   margin: 0;
 }
+
 .dbtn{
   height: 50px;
 }
@@ -270,13 +287,16 @@ h1{
   padding-right: 3%;
   margin-bottom: -25px;
 }
+
 section {
   margin: 5%
 }
+
 .backgr {
   background-color: rgba(200,200,200,0.6);
   padding:2%;
 }
+
 .bhampic {
   position: relative;
   margin: 1.2% 8%;
@@ -284,41 +304,49 @@ section {
   height: 450px;
   width: auto;
 }
+
 #sellyoak {
   background-image: url(sellyoak.jpg);
   background-size: 100%;
   background-repeat: no-repeat
 }
+
 #moseley {
   background-image: url(moseley.jpg);
   background-size: 100%;
   background-repeat: no-repeat
 }
+
 #edgbaston {
   background-image: url(edgbaston.jpg);
   background-size: 100%;
   background-repeat: no-repeat
 }
+
 #erdington {
   background-image: url(erdington.jpg);
   background-size: 100%;
   background-repeat: no-repeat
 }
+
 #harborne {
   background-image: url(harborne.jpg);
   background-size:100%;
   background-repeat: no-repeat
 }
+
 #citycentre {
   background-image: url(citycentre.jpg);
   background-size: 100%;
   background-repeat: no-repeat
 }
+
 #brindleyplace{
   background-image: url(brindleyplace.jpg);
   background-size: 100%;
   background-repeat: no-repeat
 }
+
 p {
   padding: 10px;
   font-size: 30px;
@@ -339,16 +367,20 @@ p {
   -moz-transition: height .5s;
   width:100%;
 }
+
 small {
   opacity: 0;
 }
+
 .show-description p {
   height: 150px;
   width:100%;
 }
+
 .show-description small {
   opacity: 1;
 }
+
 small {
   font-size:20px;
 }
@@ -356,12 +388,12 @@ small {
 .form{
   text-align: center;
 }
+
 .practical{
   font-size: 20px;
   padding-bottom: 10px;
   padding-top: 80px;
 }
-
 
 /* Social buttons */
 .socialb {
@@ -410,6 +442,7 @@ small {
   .intro{padding-top:19%;
     margin-top: 15px;}
 }
+
 @media (max-width:700px) {
   h1{font-size: 36px;}
   .bhampic{height:200px;}
@@ -434,6 +467,7 @@ small {
   .intro{padding-top:13%;
     margin-top: 28px;}
 }
+
 @media (max-width:500px) {
   .bhampic{height:160px;}
   h1{font-size: 30px;}
@@ -457,6 +491,7 @@ small {
   .intro{padding-top:15%;
       margin-top: 33px;}
 }
+
 @media (max-width:400px) {
   .bhampic{height:100px;}
   h1{font-size: 22px;}
