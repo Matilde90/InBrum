@@ -26,7 +26,7 @@ body {
   z-index: -1;
 }
 
-.in{
+.in {
   position: relative;
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 22px;
@@ -35,7 +35,7 @@ body {
   color: black;
   padding:0;
   }
-/*
+
 .in2{
   position: relative;
   font-family: 'Gloria Hallelujah', cursive;
@@ -44,9 +44,9 @@ body {
   left: 15px;
   color: black;
   margin-bottom: -9px;
-}*/
+}
 
-.screenone{
+.screenone {
   position: relative;
   height:15px;
   width:15px;
@@ -55,7 +55,7 @@ body {
   background-color:rgba(144, 215, 226, 1);
 }
 
-.screentwo{
+.screentwo {
   position: relative;
   top: -43px;
   right: -30px;
@@ -64,7 +64,7 @@ body {
   background-color:rgba(144, 215, 226, 1);
 }
 
-.screenoval{
+.screenoval {
   position: relative;
   height:15px;
   width:15px;
@@ -75,7 +75,7 @@ body {
   z-index: 2;
 }
 
-.bow{
+.bow {
   border-top: 30px solid rgba(8, 113, 33, 1);
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
@@ -98,7 +98,7 @@ body {
   border-color:black;
 }
 
-.brum2{
+.brum2 {
   position: relative;
   top: -38px;
   left: 30px;
@@ -109,7 +109,7 @@ body {
   border-color:black;
 }
 
-.canal{
+.canal {
   height: 10px;
   background-color: blue;
   position: relative;

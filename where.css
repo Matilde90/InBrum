@@ -3,7 +3,8 @@ body{
   background-color: #F4EAEA;
   font-family: 'Quattrocento', serif;
 }
-/*logo*/
+
+/* Logo */
 #introd{
   height: 90px;
   width: 100%;
@@ -162,11 +163,10 @@ h1{
   margin-bottom: 0px;
 }
 
-/* Language Bar */
+/* Language bar ***************/
 .langnavbar {
   overflow: hidden;
-  background-color: rgba(2,3,2,0.8);
-  height: 50px;
+  background-color: #333;
 }
 
 .langnavbar a {
@@ -186,7 +186,6 @@ h1{
 .ddown {
   float: right;
   overflow: hidden;
-  height: 50px;
 }
 
 .ddown .dbtn {
@@ -194,14 +193,10 @@ h1{
   border: none;
   outline: none;
   color: white;
-  padding: 0px 40px 0px 40px;
+  padding: 0px 0px 0px 40px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-}
-
-.dbtn{
-  height: 50px;
 }
 
 .langnavbar a:hover, .ddown:hover .dbtn {
@@ -233,7 +228,8 @@ h1{
 .ddown:hover .ddown-content {
   display: block;
 }
-/* End of language bar */
+
+
 .intro{
   max-width: 1500px;
   padding-top:10%;
