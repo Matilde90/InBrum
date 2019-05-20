@@ -5,7 +5,7 @@ body {
 }
 
 /* Logo */
-#introd{
+#introd {
   height: 90px;
   width: 100%;
   z-index: 1;
@@ -16,7 +16,7 @@ body {
   z-index: 1px;
 }
 
-header{
+header {
   background-image: url(background.jpg);
   background-size: cover;
   background-position: center;
@@ -28,7 +28,7 @@ header{
 }
 
 /* Whowe Pic & Text ***************/
-.picMN{
+.picMN {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -46,9 +46,10 @@ header{
   text-align: justify;
 }
 
-.bolder{
+.bolder {
   font-weight: 900;
 }
+
 .practicalhead {
   background-image: url(practicalinfo.jpg);
   }
@@ -185,6 +186,10 @@ h1 {
   margin-bottom: 0px;
 }
 
+#introtext {
+  font-size: 55px;
+}
+
 /* Language bar ***************/
 .langnavbar {
   overflow: hidden;
@@ -251,7 +256,7 @@ h1 {
   display: block;
 }
 
-.intro{
+.intro {
   max-width: 1500px;
   padding-top:10%;
   position:relative;
@@ -347,12 +352,13 @@ small {
 small {
   font-size:20px;
 }
+
 /* Google form div*/
-.form{
+.form {
   text-align: center;
 }
 
-.practical{
+.practical {
   font-size: 20px;
   padding-bottom: 10px;
   padding-top: 80px;
@@ -460,10 +466,10 @@ small {
   .cabin{left: 200px;}
   .bow{left: 170px;}
   .intro{padding-top:15%;
-      margin-top: 33px;}
+    margin-top: 33px;}
   .picMN{width: 300px;}
   .whowe {
-	 font-size: 18px;
+    font-size: 18px;
 	 padding: 30px 60px;
 }
 
@@ -472,9 +478,9 @@ small {
   h1{font-size: 22px;}
   small{font-size:13px;}
   .show-description p {
-  font-size: 12px;
-  line-height: 12px;
-  height: 100px;}
+    font-size: 12px;
+    line-height: 12px;
+    height: 100px;}
   .cabin{left: 140px;}
   .bow{left: 110px;}
   .picMN{width: 200px;}
