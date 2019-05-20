@@ -72,7 +72,7 @@ header {
   left: 20px;
   color: black;
   padding:0;
-  }
+ }
 
 .in2 {
   position: relative;
@@ -153,7 +153,8 @@ header {
   position: relative;
   margin-top: 20px;
   width: 100%;
-  z-index: -1;}
+  z-index: -1;
+}
 
 ul {
   width:100%;
@@ -187,7 +188,7 @@ h1 {
 }
 
 #introtext {
-  font-size: 55px;
+  font-size: 65px;
 }
 
 /* Language bar ***************/
@@ -410,10 +411,11 @@ small {
   .bow{left: 370px;}
   .intro{padding-top:19%;
     margin-top: 15px;}
-  img{si}
-  .whowe {
-	  font-size: 25px;
-	  padding: 60px 150px;
+	#introtext {font-size: 55px;}
+	.picMN{width: 300px;}
+   .whowe {
+ 	 font-size: 25px;
+ 	 padding: 60px 40px;}
 }
 
 @media (max-width:700px) {
@@ -442,7 +444,8 @@ small {
   .picMN{width: 300px;}
   .whowe {
 	 font-size: 20px;
-	 padding: 40px 80px;
+	 padding: 40px 80px;}
+	#introtext {font-size: 55px;}
 }
 
 @media (max-width:500px) {
@@ -468,9 +471,9 @@ small {
   .intro{padding-top:15%;
     margin-top: 33px;}
   .picMN{width: 300px;}
-  .whowe {
-    font-size: 18px;
-	 padding: 30px 60px;
+  .whowe {font-size: 18px;
+	 padding: 30px 60px;}
+	 #introtext {font-size: 35px;}
 }
 
 @media (max-width:400px) {
@@ -484,16 +487,20 @@ small {
   .cabin{left: 140px;}
   .bow{left: 110px;}
   .picMN{width: 200px;}
-  .whowe {
-	 font-size: 14px;
-	 padding: 20px 40px;
+  .whowe {font-size: 14px;
+	padding: 20px 40px;}
+	#introtext {font-size: 25px;
+	padding-top:25%;
+	margin-bottom: -15px;}
 }
 
 @media (max-width:300px) {
    .cabin{left: 100px;}
    .bow{left: 70px;}
 	.picMN{width: 200px;}
-	.whowe {
-	 font-size: 12px;
-	 padding: 20px 40px;
+	.whowe {font-size: 12px;
+	 padding: 20px 40px;}
+	 #introtext {font-size: 15px;
+	 padding-top: 25%;
+ 	margin-bottom: -90px;}
 }
